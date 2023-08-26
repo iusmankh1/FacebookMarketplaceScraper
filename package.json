@@ -1,0 +1,36 @@
+{
+  "name": "fb-marketplace-scraper-bot",
+  "version": "1.0.0",
+  "description": "Facebook-Marketplace-Scraper-Bot",
+  "icon": "./icon.png",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron .",
+    "build": "electron-packager . --protocol=fbmpbot --protocol-name='Fb-Marketplace Scraper Bot' --icon=./icon.png --asar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agent-base": "^6.0.2",
+    "axios": "^0.21.0",
+    "electron": "^10.1.5",
+    "form-data": "^4.0.0",
+    "https-proxy-agent": "^5.0.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "knex": "^0.21.21",
+    "locate-chrome": "^0.1.1",
+    "nodemon": "^2.0.22",
+    "playwright-extra": "^4.3.5",
+    "puppeteer": "^18.1.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "selenium-webdriver": "^4.0.0-beta.3",
+    "sqlite3": "^5.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.1"
+  }
+}
